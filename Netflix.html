@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Netflix Clone</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #ffffff;
+  }
+  .navbar {
+    background-color: #e50914;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  .featured {
+    background: url('https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/Netflix-New-Feature-Audio-Only_1200x768.jpeg?size=1200:675') no-repeat center/cover;
+    padding: 150px 0;
+    text-align: center;
+  }
+  .featured h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .featured p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  .thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .thumbnail {
+    margin: 15px;
+  }
+  .thumbnail img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+</style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">TV Shows</a>
+    <a href="#">Movies</a>
+    <a href="#">New & Popular</a>
+    <a href="#">My List</a>
+  </div>
+  <div class="featured">
+    <h1>Welcome to Netflix</h1>
+    <p>Watch Unlimited Movies & TV Shows</p>
+  </div>
+  <div class="thumbnails">
+    <div class="thumbnail">
+      <img src="https://resizing.flixster.com/0xxuABVVuzJrUT130WFHKE-irEg=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vNzUyMTFhOTktZTU4Ni00ODkyLWJlYjQtZTgxYTllZmU2OGM0LmpwZw==" alt="Movie 1">
+    </div>
+    <div class="thumbnail">
+      <img src="https://m.media-amazon.com/images/M/MV5BMjdlZjI4YTEtNjgzZi00NTA1LWIwZWYtMDc0MzhjOWNlYjcxXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="Movie 2">
+    </div>
+    <div class="thumbnail">
+      <img src="https://m.media-amazon.com/images/M/MV5BZmU5NTcwNjktODIwMi00ZmZkLTk4ZWUtYzVjZWQ5ZTZjN2RlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="Movie 3">
+    </div>
+    <!-- Add more thumbnails here -->
+  </div>
+</body>
+</html>
